@@ -1,0 +1,11 @@
+P1{
+    color: darkorange;
+    background: url(../img/first_bg.jpg) no-repeat center bottom;
+}
+P2{
+    first {	display: block;
+        	height:108px;	
+            background: url(../img/first_bg.jpg) no-repeat center bottom;	
+        	color:#fff ;
+        	padding-top:13px;}
+}
