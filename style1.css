@@ -1,15 +1,22 @@
-.ordinary{
-color: aquamarine;
+#P1{
+    font-family: fantasy; color: red; font-size: 25px;
 }
-a{
-
-}
-p{
-    font-family: 'Times New Roman'; color: red; font-size: 25px;
-}
-p{
+#P2{
     font-family: Arial; color:green; font-size: 30px;  
 }
-p{
-    font-family: Calibri; color: orange; font-size: 20px; 
+.style{
+    color: red;
 }
+.font{
+    font-size:35px;
+}.color{
+    color: orangered;
+    font-size:40px; 
+}
+.size{
+    font-size: 38px;
+    color: blueviolet;
+}
+h1{
+    text-align: center;
+}  
