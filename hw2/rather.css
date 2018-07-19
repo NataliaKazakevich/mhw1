@@ -33,13 +33,6 @@ header{
     bottom: 0;
     right: 7px;
 }
-.cont {
-    position: absolute;
-    background: rgba(214, 248, 18, 0.5);
-    height: 68%;
-    margin-top:3%;
-    margin-bottom: 50px;
-}
 .text{
     margin: 40px 15% 40px 15%;
     padding: 10px;
@@ -48,9 +41,10 @@ header{
     column-gap: 15%;
     column-rule: 1px solid rgb(245, 22, 22);
     background: rgb(245, 210, 11);
+    margin: 10% 15% 50px 15%;
 }
 .footer{
-    width: 100%;
+    width: 99%;
     height: 15%;
     background: rgba(182, 143, 221, 0.5);
     position: absolute;
