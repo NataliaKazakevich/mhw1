@@ -6,7 +6,7 @@ table{
 }
 th, td{
     border: 1px solid gray;
-    
+    padding: 10px 15px;
 }
 th{
     width:50px;
@@ -15,16 +15,15 @@ th{
     background: orange;
 }
 .cont{
-    background: blue;
-    width: 50%;
-    padding: 150px 15px;
-    margin: 10px;
+    margin: 0px 1.5% 24px 1.5%;
+    background: greenyellow;
+    width: 97%;
+    height: 250px;
 }
 tbody td{
-    background:green;
-    width: 30%;
-    margin: 10px 1.5% 24px 1.5%;
-    padding: 80px 15px;
+ background: blue;
+height: 200px; 
+margin: 0px 1.5% 24px 1.5%;
 }
 tfoot td{
     background: rgb(222, 235, 42);
@@ -32,8 +31,4 @@ tfoot td{
     padding: 30px 15px;
     margin: 10px 1.5% 24px 1.5%;
 }
-td:hover{
-    background:blueviolet;}
-    th:hover{
-        background: red;
-    }
+    
