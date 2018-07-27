@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}   
+.one{
+    align-self: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(67, 17, 184);
+   
+}
+.two{
+    align-self: center;
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+}
+.three{
+    align-self: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(241, 13, 44);
+}

@@ -1,0 +1,11 @@
+.content{
+    width: 100%;
+    background: rgb(243, 172, 65);
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-bottom:20px;
+}
+button{
+    background: rgb(199, 236, 63);
+    color: rgb(3, 9, 14);
+}

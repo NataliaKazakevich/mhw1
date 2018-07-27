@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: row;
+  /* flex-wrap: wrap;*/
+    width: 1600px;
+    margin: 5px;
+}
+.one{
+    height: 200px;
+    width: 200px;
+    background: rgb(72, 230, 72);
+    margin: 5px;
+    flex-shrink: 1;
+}
+.item{
+
+    height: 200px;
+    width: 200px;
+    background: gold;
+    margin: 5px;
+    flex-shrink: 1;
+}
+.eight{
+    height: 200px;
+    width: 200px;
+    background: gold;
+    margin: 5px;
+    flex-shrink: 0;
+}
+.nine{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    background: rgb(72, 230, 72);
+   /* flex-shrink: 0;*/
+    flex-grow: 5;
+}

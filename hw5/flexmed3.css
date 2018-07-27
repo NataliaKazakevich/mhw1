@@ -1,0 +1,49 @@
+@media screen and (max-width: 375px){
+    body{
+    background:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+.header1{
+    position: absolute;
+    top:0px;
+    left:0;
+    width:100%;
+    height: 60px;
+    background: rgb(14, 180, 70);
+    margin: 10px;
+   
+}
+.header2{
+    position: absolute;
+    top:10px;
+    left:0px;
+    height: 60px;
+    width: 100%;
+    background: rgb(181, 7, 187);
+    margin: 80px 10px 10px 10px;
+}
+.content{
+    position: absolute;
+    top:30px;
+    left:0;
+    background: rgb(236, 43, 43);;
+    width: 100%;
+    height: 450px;
+    margin: 130px 10px 10px 10px;
+    
+    
+}
+.aftercontent1{
+   display:none;
+}
+.aftercontent2{
+    display: none;
+}
+.aftercontent3{
+   display: none;
+}
+}

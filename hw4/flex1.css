@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    width: 550px;
+    border: 3px solid black;
+    flex-wrap: wrap; 
+    align-content: space-between;
+    
+}
+.item,
+.item2{
+    height: 150px;
+    width: 150px;
+    background: rgb(76, 0, 255);
+    margin: 5px;
+}
+.item2{
+    align-self: stretch;
+    flex-grow: 1;
+    
+       
+}
+
+   
+    

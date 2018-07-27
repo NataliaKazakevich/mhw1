@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.header1{
+    height: 70px;
+    width:45%;
+    background: rgb(236, 43, 43);
+    margin: 5px;
+    
+}
+.header2{
+    height: 70px;
+    width: 50%;
+    background: orange;
+    margin: 5px;
+}
+.content{
+    background: rgb(14, 180, 70);
+    width: 95.5%;
+    height: 450px;
+    margin: 5px;
+}
+.aftercontent1{
+    margin: 5px;
+    background: rgb(82, 19, 19);
+    width: 31.5%;
+    height: 200px; 
+   
+}
+.aftercontent2{
+    margin: 5px;
+    background: rgb(44, 44, 233);
+    width: 31.5%;
+    height: 200px;  
+}
+.aftercontent3{
+    margin: 5px;
+    background: rgb(181, 7, 187);
+    width: 31.5%;
+    height: 200px; 
+}
