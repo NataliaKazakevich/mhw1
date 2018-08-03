@@ -1,0 +1,26 @@
+
+button{
+    width: 30%;
+    margin: 20px;
+    
+    background: rgb(78, 78, 243);
+    padding: 15px;
+}
+button1{
+        width: 30%;
+        margin: 20px;
+        
+        background: rgb(78, 78, 243);
+        padding: 15px;
+}
+button:hover{
+    background: rgb(152, 235, 166);
+}
+button1:hover{
+    background: rgb(152, 235, 166);
+}
+.container{
+    background: rgb(131, 178, 248);
+    width: 100%;
+}
+

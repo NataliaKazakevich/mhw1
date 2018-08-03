@@ -1,0 +1,5 @@
+//var name = promt ("Как вас зовут?");
+//console.log ("Ваше имя" + name);
+var firstNume = 12;
+var secondNume = 24;
+document.write ("Результат: ", firstNume + secondNume);
