@@ -7,27 +7,27 @@
     <link href="lesson5.css" rel="stylesheet" type="text/css"/>
     <title>JS</title>
     <script type="text/javascript">{
-
-         function chooseBacground( ) {
-             var container = document.querySelector("container");
-             changecontainer.style.backgroundColor="red";
+         function chooseBacground() {
+             var container = document.getElementById("container");
+             container.style.backgroundColor  = "red";
              }
 
-         function deleteHtml( ) {
-             return document.body.innerHTML = " ";
+         function deleteHtml() {
+             document.body.innerHTML = " ";
+             window.location='./flexmed.html';
          }
      }
      </script>
 </head>
 <body>
-        <div class="container">
+        <div id="container">
         <p>Первая страничка JS</p>
 
-        <button onclick="window.location='flexmed.html';">Переход на другую страницу</button> <br/><br/>
+        <button onclick= "window.location='https://google.com';">Переход на другую страницу</button> <br/><br/>
 
-       <button onclick="chooseBacground;">Смена стиля страницы</button> <br/><br/>
+       <button onclick="chooseBacground()">Смена стиля страницы</button> <br/><br/>
       
-        <button onclick="div.innerHTML()">Удаление содержимого стр и отрисовка</button>
+        <button onclick="deleteHtml()">Удаление содержимого стр и отрисовка</button>
        
     </div>
 </body>

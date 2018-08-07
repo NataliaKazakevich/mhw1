@@ -1,0 +1,21 @@
+
+  body > img{
+    transition: all 1s ease-out;
+  }
+  .img{
+    width: 250px;
+    margin: 100px;
+  }
+  .img:hover{
+    transform: scale(1.5);
+  }
+  body > img{
+    transition: all 1s ease-in-out;
+  }
+  .img1{
+    width: 250px;
+    margin: 100px;
+  }
+  .img1:hover{
+    transform: scale(-1.5);
+  }

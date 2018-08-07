@@ -19,7 +19,7 @@ button:hover{
 button1:hover{
     background: rgb(152, 235, 166);
 }
-.container{
+#container{
     background: rgb(131, 178, 248);
     width: 100%;
 }
