@@ -1,0 +1,12 @@
+form{
+    width: 700px;
+    background: rgb(215, 244, 250);
+}
+input{
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+}
+em{
+    color: red;
+}

@@ -1,0 +1,51 @@
+body{
+    background: rgb(164, 206, 229);
+}
+#navbar{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 250px;
+    position: fixed;
+    transition: left 0.3s;
+}
+#navbar a {
+    background: rgb(108, 162, 233);
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-left: 3px solid black;
+    display: block;
+}
+#navbar li{
+    border-left: 10px solid red;
+    border-bottom: 1px solid red;
+}
+.one:hover{
+    transform: translateX(20px);
+}
+.one{
+    transition: all 0.5s ease;
+}
+h2{
+    margin-left: 70px;
+}
+#navbar:hover{
+transform: translateX(20px);
+transition: all 0.5s ease;
+}
+/*.spoiler-title{
+    cursor:pointer;
+}
+.spoiler-body{
+  /*  display:none;
+    background:#f53e3e;
+}
+.spoiler-body{
+    display: fixed;
+}*/
+
+
+
+

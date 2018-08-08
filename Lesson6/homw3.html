@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="./homw3.css" rel="stylesheet" type="text/css" media="screen"/>
+    <script type="text/javascript">
+        
+        function validate_form ( ){
+        /*{var element = document.forms["contact_form"]["contact_name"].value;
+        if (element == ""){
+           
+        alert ("Укажите Ваши данные");
+            return false;*/
+        
+
+            valid = true;
+                if ( document.contact_form.contact_name.value == "" )
+                {       
+                        alert ( "Пожалуйста, заполните все обязательные поля!" );
+                        valid = false;
+                }
+                return valid;
+             }
+        
+        
+        </script>
+</head>
+<body>
+    <form name="contact_form" method="post" action="dumb.htm" onsubmit="return validate_form ();">
+        <fieldset>
+            <legend>Контактная информация</legend>
+            <p><label for="name">Имя<em>*</em></label><input type="text" name="contact_name"></p>
+            <p><label for="name">Фамилия<em>*</em></label><input type="text" name="contact_name"></p>
+            <p><label for="name">Отчество</label><input type="text" name="contact_name"></p>
+            <p><label for="name">E-mail<em>*</em></label><input type="email" name="contact_name"></p>
+            <p><label for="name">Телефон<em>*</em></label><input type="tel" name="contact_name"></p>
+            <p><label for="name">Пароль<em>*</em></label><input type="text" name="contact_name"></p>
+            <p><label for="name">Подтверждение пароля<em>*</em></label><input type="password" id="confpassw"></p>
+            <p><input type="submit" name="
+" value="Отправить"></p>
+        </fieldset>
+         <!-- <fieldset>
+            <legend>Контактная информация</legend>
+            <p>Имя<em>*</em> <input type="text" name="contact_name"></p>
+            <p>Фамилия<input type="text" name="contact_name"></p>
+            <p>Отчество<input type="text" name="contact_name"></p>
+            <p>E-mail<em>*</em><input type="text" name="contact_name"></p>
+            <input type="submit" name="send" value="Отправить данные"></p>
+            </form>
+            </fieldset>-->
+      
+    </form>
+</body>
+</html>
