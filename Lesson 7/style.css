@@ -1,25 +1,149 @@
-h2{
-    background: rgb(218, 219, 219);
-    width: 100%;
-    height: 100px;
-    text-align: center;
-    padding: 20px; 
+.header {
+  background-color: #daddda;
+  height: 100px;
+  text-align: center;
 }
-.content{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background: rgb(170, 171, 172); 
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #a5aca5;
+  height: 650px;
+  margin: auto;
+}
+.square {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 150px;
+  margin-left: 20px;
+  margin: 10px;
+}
+.square1 {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 150px;
+  margin-left: 20px;
+  margin: 10px;
+  background: #f2f2f2;
+}
+.square2 {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 150px;
+  margin-left: 20px;
+  margin: 10px;
+  background: #d9d9d9;
+}
+.square3 {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 150px;
+  margin-left: 20px;
+  margin: 10px;
+  background: #cccccc;
+}
+.square4 {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 150px;
+  margin-left: 20px;
+  margin: 10px;
+  background: #bfbfbf;
+}
+.square5 {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 150px;
+  margin-left: 20px;
+  margin: 10px;
+  background: #b3b3b3;
+}
+.square6 {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 150px;
+  margin-left: 20px;
+  margin: 10px;
+  background: #a6a6a6;
+}
+.square7 {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 150px;
+  margin-left: 20px;
+  margin: 10px;
+  background: #999999;
+}
+.square8 {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 150px;
+  margin-left: 20px;
+  margin: 10px;
+  background: #8c8c8c;
+}
+.square9 {
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  font-size: 150px;
+  margin-left: 20px;
+  margin: 10px;
+  background: #7f7f7f;
+}
+@media screen and (max-width: 2000px) {
+  .header {
+    background: red;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header {
+    background: blue;
+  }
+}
+@media screen and (max-width: 750px) {
+  .header {
+    background: #cfee20;
+  }
+  .content {
+    height: 100%;
     margin: auto;
+  }
+  .square1 {
+    font-size: 250px;
+    width: 300px;
+    height: 300px;
+  }
+  .square2 {
+    font-size: 250px;
+    width: 300px;
+    height: 300px;
+  }
+  .content {
+    height: 100%;
+  }
 }
-.square{
-    border: 3px solid black;
-    width: 250px;
-    height: 250px;
-    background: rgb(218, 221, 223);
-    text-align: center;
-    font-size: 150px;
-    margin-left: 20px;
-    margin: 5px;
-    
+@media screen and (max-width: 500px) {
+  .header {
+    background: green;
+  }
+  .square1 {
+    width: 100%;
+    height: 100%;
+    font-size: 350px;
+    margin: 20px;
+  }
+  .content {
+    height: 100%;
+    margin: auto;
+  }
 }

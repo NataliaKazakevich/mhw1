@@ -1,22 +1,132 @@
-@red: red;
-body{
-    background-color: @red;
+@gray: rgb(218, 221, 218);
+.header{
+    background-color: @gray;
+    height: 100px;
+    text-align: center;
+
 }
  .content{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        background: rgb(170, 171, 172); 
+        background: darken(@gray,20%); 
+        height: 650px;
         margin: auto;
-        &_square{
-            border: 3px solid black;
+    }
+    .square{
             width: 250px;
             height: 250px;
-            background: rgb(218, 221, 223);
+        
             text-align: center;
             font-size: 150px;
             margin-left: 20px;
-            margin: 5px;
+            margin: 10px;
+    }
+    @color: hsl(0, 0%, 95%);
+    .square1{
+        .square;
+        background: @color;
+    }
+    .square2{
+        .square;
+        background:darken(@color,10%);
+    }
+    .square3{
+        .square;
+        background:darken(@color,15%);
+    }
+    .square4{
+        .square;
+        background:darken(@color,20%);
+    }
+    .square5{
+        .square;
+        background:darken(@color,25%);
+    }
+    .square6{
+        .square;
+        background:darken(@color,30%);
+    }
+    .square7{
+        .square;
+        background:darken(@color,35%);
+    }
+    .square8{
+        .square;
+        background:darken(@color,40%);
+    }
+    .square9{
+        .square;
+        background:darken(@color,45%);
+    }
+
+@media screen and (max-width: 2000px){
+    .header{
+        background: red;
+    }
+}
+  
+@media screen and (max-width: 1000px){
+    .header{
+        background:blue;
+    }
+}
+    @media screen and (max-width: 750px){
+        .header{
+            background: rgb(207, 238, 32);
+        }
+        .content{
+            height:100%;
+            margin: auto;
+        }
+        .square1{
+            font-size: 250px;
+            width: 300px;
+            height: 300px;
+        }
+        .square2{
+            font-size: 250px;
+            width: 300px;
+            height: 300px;
+        }
+            .content{
+                height:100%;
+        } 
+       
+    }
+    
+    @media screen and (max-width: 500px){
+        .header{
+            background:green;
+        }
+        .square1{
+            width: 100%;
+            height: 100%;
+            font-size: 350px;
+            margin: 20px;
+        }
+        .content{
+            height:100%;
+            margin: auto;
         }
     }
+
+    
+   
+  
+        
+  
+
+
+    
+    
+    
+    
+        
+        
+    
+
+    
+    
+    
    

@@ -1,0 +1,65 @@
+@btn1-color: #e0e0e0;
+@btn1-hover: #e8e8e8;
+@btn1-click: #333;
+
+@btn2-color: #3b83c0;
+@btn2-hover: #458ac6;
+@btn2-click: #fff;
+
+@btn3-color: #404245;
+@btn3-hover: #1b1c1d;
+@btn3-click: #fff;
+
+.btn1{
+    height: 40px; 
+    width: 150px;
+    background: @btn1-color;                
+        &:hover{
+            background: @btn1-hover;                          
+            transform: scale(1.5,1.5);                     
+        } 
+        &:active {
+            background-color:  @btn1-click;
+            transform: scale(1.3,1.3);
+        }                                     
+}  
+.btn2{
+   width: 100px;
+    height: 40px; 
+    background: @btn2-color;
+    margin: 10px;
+        &:hover{
+            background: @btn2-hover;
+            transform: scale(1.5,1.5);
+        }                 
+        &:active {
+            background-color:  @btn2-click;
+            transform: scale(1.3,1.3);
+        }  
+}
+.btn3{
+    width: 200px;
+    height: 40px;
+    background: @btn3-color;
+    &:hover{
+        background: @btn3-hover;
+        transform: scale(1.2,1.2);
+    }
+    &:active{
+        background: @btn3-click;
+        transform: scale(1.3,1.3);
+    }
+   
+}    
+  .function(@a,@b,@c){
+    @max: max(@a,@b,@c);               
+      @result:(sqrt(@a)+cos(@b) + @max)/pow(@c,5);
+    content: @result;               
+}
+
+.example{  
+         .function(2,4,5);  
+}                    
+       
+
+  
